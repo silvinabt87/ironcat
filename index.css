@@ -76,6 +76,19 @@ img[alt="logo"] {
 
 } */
 
+form{
+  min-height: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#submit {
+  display:flex;
+  width: fit-content;
+  font-family: "Exo", sans-serif;
+}
 @media all and (max-width: 480px) {
   nav {
     box-shadow: 0% 0% 12% 0% var(--shadow-color);
